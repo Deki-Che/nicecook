@@ -97,12 +97,13 @@
 		3E32922A1D7EEC6200B7BE1E /* SwiftCook */ = {
 			isa = PBXGroup;
 			children = (
+				3EF27DE41D7FB18200B1200D /* SupportFiles */,
+				3EF27DE31D7FB14D00B1200D /* Constant */,
+				3EF27DE21D7FB11600B1200D /* ViewController */,
+				3EF27DE11D7FB10D00B1200D /* View */,
+				3EF27DE01D7FB10000B1200D /* Toolkit */,
+				3EF27DDE1D7FB03E00B1200D /* Database */,
 				3E32922B1D7EEC6200B7BE1E /* AppDelegate.swift */,
-				3E32922D1D7EEC6200B7BE1E /* ViewController.swift */,
-				3E32922F1D7EEC6200B7BE1E /* Main.storyboard */,
-				3E3292321D7EEC6200B7BE1E /* Assets.xcassets */,
-				3E3292341D7EEC6200B7BE1E /* LaunchScreen.storyboard */,
-				3E3292371D7EEC6200B7BE1E /* Info.plist */,
 			);
 			path = SwiftCook;
 			sourceTree = "<group>";
@@ -123,6 +124,53 @@
 				3E32924D1D7EEC6200B7BE1E /* Info.plist */,
 			);
 			path = SwiftCookUITests;
+			sourceTree = "<group>";
+		};
+		3EF27DDE1D7FB03E00B1200D /* Database */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Database;
+			sourceTree = "<group>";
+		};
+		3EF27DE01D7FB10000B1200D /* Toolkit */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Toolkit;
+			sourceTree = "<group>";
+		};
+		3EF27DE11D7FB10D00B1200D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		3EF27DE21D7FB11600B1200D /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3E32922D1D7EEC6200B7BE1E /* ViewController.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		3EF27DE31D7FB14D00B1200D /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Constant;
+			sourceTree = "<group>";
+		};
+		3EF27DE41D7FB18200B1200D /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				3E32922F1D7EEC6200B7BE1E /* Main.storyboard */,
+				3E3292321D7EEC6200B7BE1E /* Assets.xcassets */,
+				3E3292371D7EEC6200B7BE1E /* Info.plist */,
+				3E3292341D7EEC6200B7BE1E /* LaunchScreen.storyboard */,
+			);
+			name = SupportFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -482,6 +530,7 @@
 				3E3292521D7EEC6200B7BE1E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3E3292531D7EEC6200B7BE1E /* Build configuration list for PBXNativeTarget "SwiftCookTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +539,7 @@
 				3E3292551D7EEC6200B7BE1E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3E3292561D7EEC6200B7BE1E /* Build configuration list for PBXNativeTarget "SwiftCookUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +548,7 @@
 				3E3292581D7EEC6200B7BE1E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
