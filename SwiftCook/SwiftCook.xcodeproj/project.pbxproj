@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0395A8954A72319392F705A9 /* Pods_SwiftCookTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7177DBADC978B9A076058059 /* Pods_SwiftCookTests.framework */; };
+		3B350535A9656327A629CF20 /* Pods_SwiftCook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9B2D94F449597723175D403 /* Pods_SwiftCook.framework */; };
 		3E32922C1D7EEC6200B7BE1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E32922B1D7EEC6200B7BE1E /* AppDelegate.swift */; };
 		3E32922E1D7EEC6200B7BE1E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E32922D1D7EEC6200B7BE1E /* ViewController.swift */; };
 		3E3292311D7EEC6200B7BE1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E32922F1D7EEC6200B7BE1E /* Main.storyboard */; };
@@ -14,6 +16,9 @@
 		3E3292361D7EEC6200B7BE1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E3292341D7EEC6200B7BE1E /* LaunchScreen.storyboard */; };
 		3E3292411D7EEC6200B7BE1E /* SwiftCookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3292401D7EEC6200B7BE1E /* SwiftCookTests.swift */; };
 		3E32924C1D7EEC6200B7BE1E /* SwiftCookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E32924B1D7EEC6200B7BE1E /* SwiftCookUITests.swift */; };
+		3E49E7A11D95287F00BCA1E7 /* DataBaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E49E7A01D95287F00BCA1E7 /* DataBaseManager.m */; };
+		3E49E7A61D952F2200BCA1E7 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E49E7A51D952F2200BCA1E7 /* libsqlite3.0.tbd */; };
+		A3BFC12E59B81FB0F9E57F50 /* Pods_SwiftCookUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7050DBB85F3F676B47A8E5B3 /* Pods_SwiftCookUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		20FB955D3F9E7BB2E65A3BBB /* Pods-SwiftCook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftCook.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftCook/Pods-SwiftCook.debug.xcconfig"; sourceTree = "<group>"; };
+		272E3BCCA91EC9784187CB49 /* Pods-SwiftCookTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftCookTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftCookTests/Pods-SwiftCookTests.release.xcconfig"; sourceTree = "<group>"; };
 		3E3292281D7EEC6200B7BE1E /* SwiftCook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftCook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E32922B1D7EEC6200B7BE1E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3E32922D1D7EEC6200B7BE1E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +54,17 @@
 		3E3292471D7EEC6200B7BE1E /* SwiftCookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftCookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E32924B1D7EEC6200B7BE1E /* SwiftCookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftCookUITests.swift; sourceTree = "<group>"; };
 		3E32924D1D7EEC6200B7BE1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E49E79F1D95287F00BCA1E7 /* DataBaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataBaseManager.h; sourceTree = "<group>"; };
+		3E49E7A01D95287F00BCA1E7 /* DataBaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataBaseManager.m; sourceTree = "<group>"; };
+		3E49E7A31D95298200BCA1E7 /* SwiftCook-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SwiftCook-Bridging-Header.h"; sourceTree = "<group>"; };
+		3E49E7A51D952F2200BCA1E7 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		4B6BD56FDBD552F588249A96 /* Pods-SwiftCook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftCook.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftCook/Pods-SwiftCook.release.xcconfig"; sourceTree = "<group>"; };
+		7050DBB85F3F676B47A8E5B3 /* Pods_SwiftCookUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftCookUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7177DBADC978B9A076058059 /* Pods_SwiftCookTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftCookTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B247EE30B5D47898E9A1631 /* Pods-SwiftCookUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftCookUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftCookUITests/Pods-SwiftCookUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8301BF9E741AFF6521274E78 /* Pods-SwiftCookTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftCookTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftCookTests/Pods-SwiftCookTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A9B2D94F449597723175D403 /* Pods_SwiftCook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftCook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F91BFEC6A4386C6AC4C1E47C /* Pods-SwiftCookUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftCookUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftCookUITests/Pods-SwiftCookUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +72,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E49E7A61D952F2200BCA1E7 /* libsqlite3.0.tbd in Frameworks */,
+				3B350535A9656327A629CF20 /* Pods_SwiftCook.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0395A8954A72319392F705A9 /* Pods_SwiftCookTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3BFC12E59B81FB0F9E57F50 /* Pods_SwiftCookUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +103,8 @@
 				3E32923F1D7EEC6200B7BE1E /* SwiftCookTests */,
 				3E32924A1D7EEC6200B7BE1E /* SwiftCookUITests */,
 				3E3292291D7EEC6200B7BE1E /* Products */,
+				F795B255E857E4140ACBD30D /* Pods */,
+				BCCDB8388FC10E6A50704FD4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +121,7 @@
 		3E32922A1D7EEC6200B7BE1E /* SwiftCook */ = {
 			isa = PBXGroup;
 			children = (
+				3E49E7A31D95298200BCA1E7 /* SwiftCook-Bridging-Header.h */,
 				3EF27DE41D7FB18200B1200D /* SupportFiles */,
 				3EF27DE31D7FB14D00B1200D /* Constant */,
 				3EF27DE21D7FB11600B1200D /* ViewController */,
@@ -129,6 +154,8 @@
 		3EF27DDE1D7FB03E00B1200D /* Database */ = {
 			isa = PBXGroup;
 			children = (
+				3E49E79F1D95287F00BCA1E7 /* DataBaseManager.h */,
+				3E49E7A01D95287F00BCA1E7 /* DataBaseManager.m */,
 			);
 			name = Database;
 			sourceTree = "<group>";
@@ -173,6 +200,30 @@
 			name = SupportFiles;
 			sourceTree = "<group>";
 		};
+		BCCDB8388FC10E6A50704FD4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E49E7A51D952F2200BCA1E7 /* libsqlite3.0.tbd */,
+				A9B2D94F449597723175D403 /* Pods_SwiftCook.framework */,
+				7177DBADC978B9A076058059 /* Pods_SwiftCookTests.framework */,
+				7050DBB85F3F676B47A8E5B3 /* Pods_SwiftCookUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F795B255E857E4140ACBD30D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				20FB955D3F9E7BB2E65A3BBB /* Pods-SwiftCook.debug.xcconfig */,
+				4B6BD56FDBD552F588249A96 /* Pods-SwiftCook.release.xcconfig */,
+				8301BF9E741AFF6521274E78 /* Pods-SwiftCookTests.debug.xcconfig */,
+				272E3BCCA91EC9784187CB49 /* Pods-SwiftCookTests.release.xcconfig */,
+				7B247EE30B5D47898E9A1631 /* Pods-SwiftCookUITests.debug.xcconfig */,
+				F91BFEC6A4386C6AC4C1E47C /* Pods-SwiftCookUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -180,9 +231,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3E3292501D7EEC6200B7BE1E /* Build configuration list for PBXNativeTarget "SwiftCook" */;
 			buildPhases = (
+				A519C5E24A076046EE7D66E1 /* [CP] Check Pods Manifest.lock */,
 				3E3292241D7EEC6200B7BE1E /* Sources */,
 				3E3292251D7EEC6200B7BE1E /* Frameworks */,
 				3E3292261D7EEC6200B7BE1E /* Resources */,
+				AD22C50136A71311F94FE17B /* [CP] Embed Pods Frameworks */,
+				CFD9E52B675AA326E2B34AF1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -197,9 +251,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3E3292531D7EEC6200B7BE1E /* Build configuration list for PBXNativeTarget "SwiftCookTests" */;
 			buildPhases = (
+				3C6B841BCF8F0E366888FADD /* [CP] Check Pods Manifest.lock */,
 				3E3292381D7EEC6200B7BE1E /* Sources */,
 				3E3292391D7EEC6200B7BE1E /* Frameworks */,
 				3E32923A1D7EEC6200B7BE1E /* Resources */,
+				50A39BBED6A87A6F7766AFD8 /* [CP] Embed Pods Frameworks */,
+				CC286027C955DD04922B77AE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -215,9 +272,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3E3292561D7EEC6200B7BE1E /* Build configuration list for PBXNativeTarget "SwiftCookUITests" */;
 			buildPhases = (
+				9D46994DA356C03D15B04A81 /* [CP] Check Pods Manifest.lock */,
 				3E3292431D7EEC6200B7BE1E /* Sources */,
 				3E3292441D7EEC6200B7BE1E /* Frameworks */,
 				3E3292451D7EEC6200B7BE1E /* Resources */,
+				5E79D2D9B2A0F42ADE890326 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -236,18 +295,24 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = Deki;
 				TargetAttributes = {
 					3E3292271D7EEC6200B7BE1E = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = U2PCGD3G55;
+						LastSwiftMigration = 0800;
 					};
 					3E32923B1D7EEC6200B7BE1E = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = U2PCGD3G55;
+						LastSwiftMigration = 0800;
 						TestTargetID = 3E3292271D7EEC6200B7BE1E;
 					};
 					3E3292461D7EEC6200B7BE1E = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = U2PCGD3G55;
+						LastSwiftMigration = 0800;
 						TestTargetID = 3E3292271D7EEC6200B7BE1E;
 					};
 				};
@@ -299,6 +364,129 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3C6B841BCF8F0E366888FADD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		50A39BBED6A87A6F7766AFD8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftCookTests/Pods-SwiftCookTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E79D2D9B2A0F42ADE890326 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftCookUITests/Pods-SwiftCookUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D46994DA356C03D15B04A81 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A519C5E24A076046EE7D66E1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AD22C50136A71311F94FE17B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftCook/Pods-SwiftCook-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC286027C955DD04922B77AE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftCookTests/Pods-SwiftCookTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFD9E52B675AA326E2B34AF1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftCook/Pods-SwiftCook-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3E3292241D7EEC6200B7BE1E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -306,6 +494,7 @@
 			files = (
 				3E32922E1D7EEC6200B7BE1E /* ViewController.swift in Sources */,
 				3E32922C1D7EEC6200B7BE1E /* AppDelegate.swift in Sources */,
+				3E49E7A11D95287F00BCA1E7 /* DataBaseManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,13 +563,16 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = U2PCGD3G55;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -401,6 +593,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/jason_liu/Desktop/nicebook/SwiftCook/SwiftCook/SwiftCook-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -419,13 +612,16 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = U2PCGD3G55;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -439,74 +635,93 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/jason_liu/Desktop/nicebook/SwiftCook/SwiftCook/SwiftCook-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		3E3292511D7EEC6200B7BE1E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20FB955D3F9E7BB2E65A3BBB /* Pods-SwiftCook.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = SwiftCook/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ChinaAndAustralia.SwiftCook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftCook/SwiftCook-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		3E3292521D7EEC6200B7BE1E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B6BD56FDBD552F588249A96 /* Pods-SwiftCook.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = SwiftCook/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ChinaAndAustralia.SwiftCook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftCook/SwiftCook-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		3E3292541D7EEC6200B7BE1E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8301BF9E741AFF6521274E78 /* Pods-SwiftCookTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = SwiftCookTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ChinaAndAustralia.SwiftCookTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftCook.app/SwiftCook";
 			};
 			name = Debug;
 		};
 		3E3292551D7EEC6200B7BE1E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 272E3BCCA91EC9784187CB49 /* Pods-SwiftCookTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = SwiftCookTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ChinaAndAustralia.SwiftCookTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftCook.app/SwiftCook";
 			};
 			name = Release;
 		};
 		3E3292571D7EEC6200B7BE1E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B247EE30B5D47898E9A1631 /* Pods-SwiftCookUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = SwiftCookUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ChinaAndAustralia.SwiftCookUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = SwiftCook;
 			};
 			name = Debug;
 		};
 		3E3292581D7EEC6200B7BE1E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F91BFEC6A4386C6AC4C1E47C /* Pods-SwiftCookUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = SwiftCookUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ChinaAndAustralia.SwiftCookUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = SwiftCook;
 			};
 			name = Release;

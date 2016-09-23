@@ -1,0 +1,6 @@
+framework module Pods_SwiftCook {
+  umbrella header "Pods-SwiftCook-umbrella.h"
+
+  export *
+  module * { export * }
+}
